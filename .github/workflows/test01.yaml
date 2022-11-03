@@ -1,0 +1,9 @@
+name: Demo Github 
+on: [push]
+jobs:
+  Example-Job-01:
+    name: Sample Job 1
+    runs-on: CB01
+    steps:
+      # Step 1
+      - run: echo "running Step 1 of Sample Job 1 triggered by ${{ github.event_name}} event."
