@@ -11,4 +11,5 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Step 1 - Post to jenkins
-        run: curl -X POST "http://build:11d1bf2648c69a16254c438c81f052a867@192.168.29.51:8080/job/test/build"
+        run: Remove-Item alias:curl
+          curl -X POST "http://build:11d1bf2648c69a16254c438c81f052a867@192.168.29.51:8080/job/test/build"
