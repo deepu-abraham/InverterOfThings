@@ -45,3 +45,4 @@ Approximate prices found on aliexpress
 - Tact switch ($0.00) - I'm sure you have an old button lying around.
 
 Total cost: $7.50
+
